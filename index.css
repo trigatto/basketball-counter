@@ -1,0 +1,86 @@
+@font-face {
+  font-family: CursedTimer;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+body {
+    font-family: CursedTimer;
+    margin: 0;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;  
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+}
+
+#score-home{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    color:#F94F6D;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 127px;
+}
+
+#score-away{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    color:#F94F6D;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 127px;
+}
+
+.addButton{
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    font-size: 18px;
+    text-align: center;
+    font-family: CursedTimer;
+    padding: 0;
+}
+
+#add-points-home{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+
+#add-points-away{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
